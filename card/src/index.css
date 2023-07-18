@@ -1,0 +1,191 @@
+.container {
+  font-family: Arial;
+  width: 400px !important;
+  height: 420px;
+  padding: 12px 12px 12px 12px;
+  background-color: #24232B;
+  border-radius: 2px;
+
+}
+.inner{
+  
+  margin: 12px;
+  
+}
+
+.line1{
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.line2{
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.line1,
+.line2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #ffffff;
+  
+}
+
+/* .progressbar-line3 {
+  height: 5px;
+  background-color: #000000;
+  margin-bottom: 10px;
+}
+.progress-bar {
+  height: 100%;
+  width: 30%; 
+  background-color: #be523f !important
+} */
+
+/* style.css */
+
+.text{
+  font-size: small;
+  font-weight: 700;
+  /* margin-right: 10px; */
+}
+.icon{
+  max-width: 40px; /* Adjust the desired maximum width */
+  max-height: 40px;
+  background-color: #707070;
+}
+.progressbar-line3 {
+  height: 5px;
+  background-color: #e6e6e6;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.char{
+  color: #707070;
+}
+.progress-bar {
+  height: 100%;
+  width: 30%; /* Fill the progress bar by 30% */
+  background-color: #2A8B8B !important;
+}
+
+.progress-slider {
+  position: absolute;
+  top: -3px; /* Adjust the position of the slider */
+  left: calc(30% - 5px); /* Adjust the position of the slider */
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  /* max-width: 12px;
+  font-weight: 700; */
+  font-size: 16px;
+  margin-top: 12px;
+
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #24232B;
+  border: 2px solid #707070;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.c{
+  color: #707070;
+  font-weight: 700;
+  
+}
+/* 
+.strenthline6 {
+  height: 40px;
+  background-color: #3d3c3c;
+  margin-bottom: 10px;
+  margin-top: 12px;
+  color: #707070;
+}
+
+span{
+  width: 10px;
+  height: 2px;
+  background-color: #2A8B8B
+} */
+
+.strenthline6 {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  margin-top: 10px;
+  background-color: #151515;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 10px;
+  /* margin: 24px; */
+}
+
+.strenthline6 div {
+  margin-bottom: 5px;
+}
+
+.strenthline6 span {
+  display: inline-block;
+  width: 8px;
+  height: 3px;
+  background-color: rgb(118, 34, 34);
+  margin-right: 2px;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+.strenthline6 .str {
+  /* flex-direction: column-reverse; */
+  color: #707070 !important;
+  /* font-weight: 700; */
+}
+
+.strenthline6 .strength {
+  justify-content: flex-start;
+  /* background-color: #24232B; */
+  color: #707070 ;
+  align-self: center;
+  font-weight: 700;
+  margin-left: -40px;
+}
+
+.bar{
+  margin-top: -20px;
+}
+
+button[type="buttonline7"] {
+  background-color: #2A8B8B;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.str{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  float: right;
+
+  margin-left: 50px;
+  margin-right: -50px;
+}
